@@ -12,6 +12,9 @@ public class Equipment implements Serializable{
     private String equipmentType;
     private String equipmentStatus;
 
+    public Equipment() {
+    }
+
     public Equipment(int equipmentId, String equipmentType, String equipmentStatus) {
         this.equipmentId = equipmentId;
         this.equipmentType = equipmentType;
