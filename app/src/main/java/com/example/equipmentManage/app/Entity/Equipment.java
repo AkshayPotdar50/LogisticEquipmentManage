@@ -53,4 +53,7 @@ public class Equipment implements Serializable{
                 ", equipmentStatus='" + equipmentStatus + '\'' +
                 '}';
     }
+
+    public void setId(long l) {
+    }
 }
